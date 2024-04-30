@@ -1,0 +1,17 @@
+def mutiple (x,y):
+    print (x*y)
+a=mutiple(4,5)
+print(a)
+
+
+def mutiple (x,y=10) :
+    print(x*y)
+    return x*y
+a=mutiple(4)
+print(a)
+
+
+def find_max(list1):
+    return max(list1)
+a = find_max([1, 2, 3, 4, 5])
+print("Max:", a)
